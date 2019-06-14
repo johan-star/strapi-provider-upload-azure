@@ -2,7 +2,7 @@
     "name": "strapi-provider-upload-star-azure",
     "version": "0.0.1",
     "description": "Azure blob provider for strapi upload with minor modifications. Original provider can be found at https://github.com/zaralab-org/strapi-provider-upload-azure",
-    "repository": "https://github.com/zaralab-org/strapi-provider-upload-azure",
+    "repository": "https://starrepublic.visualstudio.com/MeAndI/_git/meandi-strapi-azure-upload-provider",
     "homepage": "http://strapi.io",
     "keywords": [
       "upload",
