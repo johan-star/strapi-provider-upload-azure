@@ -1,41 +1,41 @@
 {
-    "name": "strapi-provider-upload-star-azure",
-    "version": "0.0.1",
-    "description": "Azure blob provider for strapi upload with minor modifications. Original provider can be found at https://github.com/zaralab-org/strapi-provider-upload-azure",
-    "repository": "https://starrepublic.visualstudio.com/MeAndI/_git/meandi-strapi-azure-upload-provider",
-    "homepage": "http://strapi.io",
-    "keywords": [
-      "upload",
-      "azure",
-      "blob",
-      "strapi"
-    ],
-    "directories": {
-      "lib": "./lib"
-    },
-    "main": "./lib",
-    "dependencies": {
-      "@azure/storage-blob": "^10.3.0",
-      "jimp": "^0.6.0"
-    },
-    "strapi": {
-      "isProvider": true
-    },
-    "author": {
+  "name": "@starrepublic/strapi-provider-upload-star-azure",
+  "version": "0.0.4",
+  "description": "Azure blob provider for strapi upload with minor modifications. Original provider can be found at https://github.com/zaralab-org/strapi-provider-upload-azure",
+  "repository": "https://starrepublic.visualstudio.com/MeAndI/_git/meandi-strapi-azure-upload-provider",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "upload",
+    "azure",
+    "blob",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "@azure/storage-blob": "^10.3.0",
+    "jimp": "^0.6.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "johan.morsten@starrepublic.com",
+    "name": "Johan Morsten",
+    "url": "https://www.starrepublic.com"
+  },
+  "maintainers": [
+    {
+      "name": "Team3",
       "email": "johan.morsten@starrepublic.com",
-      "name": "Johan Morsten",
       "url": "https://www.starrepublic.com"
-    },
-    "maintainers": [
-      {
-        "name": "Team3",
-        "email": "johan.morsten@starrepublic.com",
-        "url": "https://www.starrepublic.com"
-      }
-    ],
-    "engines": {
-      "node": ">= 10.0.0",
-      "npm": ">= 6.0.0"
-    },
-    "license": "MIT"
-  }
+    }
+  ],
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "license": "MIT"
+}
