@@ -16,7 +16,8 @@
   "main": "./lib",
   "dependencies": {
     "@azure/storage-blob": "^10.3.0",
-    "jimp": "^0.6.0"
+    "jimp": "^0.6.0",
+    "urljoin": "^0.1.5"
   },
   "strapi": {
     "isProvider": true
